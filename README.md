@@ -7,7 +7,10 @@ This plugin come with completion scripts and aliases
 ## Table of content
 
 - [zsh-sdkman](#zsh-sdkman)
+  - [Dependencies](#dependencies)
   - [Usage](#usage)
+    - [Usage help](#usage-help)
+    - [Usage alias](#usage-alias)
   - [Updating sdkman](#updating-sdkman)
   - [License](#license)
 
@@ -108,6 +111,8 @@ Usage: sdk <command> [candidate] [version]
    local-path :  optional path to an existing local installation
                  eg: $ sdk install groovy 2.4.13-local /opt/groovy-2.4.13
 ```
+
+### Usage alias
 
 Here is the list of aliases available through this plugin:
 
