@@ -1,3 +1,7 @@
+![GitHub](https://img.shields.io/github/license/ptavares/zsh-exa)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+![Release](https://img.shields.io/badge/Release_version-0.0.0-blue)
+
 # zsh-sdkman
 
 zsh plugin for installing and loading [sdkman](https://github.com/sdkman)
@@ -128,7 +132,7 @@ Here is the list of aliases available through this plugin:
 | sdkv | sdk version  |
 | sdkb | sdk broadcast  |
 | sdko | sdk offline  |
-| sdksu | sdk selfupdate|  
+| sdksu | sdk selfupdate|
 | sdkf | sdk flush  |
 
 ## Updating sdkman

@@ -65,7 +65,7 @@ _zsh_sdkman_last_version() {
 
 _zsh_sdkman_install() {
   _zsh_sdkman_log $NONE "blue" "#############################################"
-  _zsh_sdkman_log $BOLD "blue" "Installing sdkman..." 
+  _zsh_sdkman_log $BOLD "blue" "Installing sdkman..."
   _zsh_sdkman_check_requirement_list
   local last_version=$(_zsh_sdkman_last_version)
   _zsh_sdkman_log $NONE "blue" "-> retrieve last version of sdkman..."
@@ -80,7 +80,7 @@ _zsh_sdkman_install() {
 update_zsh_sdkman() {
   _zsh_sdkman_log $NONE "blue" "#############################################"
   _zsh_sdkman_log $BOLD "blue" "Checking new version of sdkman..."
-  
+
   local current_version=$(cat ${ZSH_SDKMAN_VERSION_FILE})
   local last_version=$(_zsh_sdkman_last_version)
 
@@ -88,7 +88,7 @@ update_zsh_sdkman() {
   then
     _zsh_sdkman_log $BOLD "green" "Already up to date, current version : ${current_version}"
   else
-    _zsh_sdkman_log $NONE "blue" "-> Updating sdkman..." 
+    _zsh_sdkman_log $NONE "blue" "-> Updating sdkman..."
      sdk selfupdate force > /dev/null 2>&1
      echo ${version} > ${ZSH_SDKMAN_VERSION_FILE}
     _zsh_sdkman_log $BOLD "green" "Update OK"
