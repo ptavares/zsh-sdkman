@@ -10,13 +10,20 @@ This plugin come with completion scripts and aliases
 
 ## Table of content
 
+_This documentation section is generated automatically_
+
+<!--TOC-->
+
 - [zsh-sdkman](#zsh-sdkman)
+  - [Table of content](#table-of-content)
   - [Dependencies](#dependencies)
   - [Usage](#usage)
     - [Usage help](#usage-help)
     - [Usage alias](#usage-alias)
   - [Updating sdkman](#updating-sdkman)
   - [License](#license)
+
+<!--TOC-->
 
 ## Dependencies
 
